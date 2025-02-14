@@ -1,11 +1,6 @@
--- 0. 1-Checks before script. 2 & 3- if checks say player is not already arrested the this will arrest them 4-If checks say player is arrested or just got arrested by local player than this script will run and cframe them here.
+-- 0. INFO 1-Checks before script. 2 & 3- if checks say player is not already arrested the this will arrest them 4-If checks say player is arrested or just got arrested by local player than this script will run and cframe them to the specifed location below. 
 -- 1. When executed scipt checks to see if selected player is arrested/in jacket. If so player is kicked, how the kick happens is stated later. If the player is nt arrested then it checks for any item in the selected players inventory excluding the sign and cola. If there is any item a arrest is made and the player is kicked.
 -- 2. Kick 1 - Once the checks are over the script will grab the player aka equipt handcuffs/ if possibe the handcuffs equipted remote will be fired.
 -- 3. localplayer will cframe (glue them self) to she selected player for a time of (1.0) (the time it takes to fire the proximity prompt) after cframed to them local player will fire the proximity prompt in the location game.Workspace.["selected player"].Humanoidrootpart.ProximityPrompt to arrest the palyer.
 -- 4. Once selected player is or you know the selected player is arrested localplayer will once again cframe to the selected player location but insted of beig glued its just cframed to their location. When selected player is in localplayer handcuff's localplayer will cframe to x-1 y-1000 x-1, unequipt handcuffs then cframe back to localplayer original location right before the script is executed.
--- 5. 
---
---
---
---
---
+-- 5. Im going to have all this on a gui, this gui ofc will be dragable/moveable then on the fram eof the gui is going to be a little text box and a button, whne the text box is  typed into it selects a layer so a player is selected via typing their user into the text box, after the user in inside the textbox you press the button to run the script witht the selected player
